@@ -1,0 +1,28 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import warnings
+warnings.filterwarnings('ignore')
+df={'Col_1':[3,6,8,2,4,5],'Col_2':['Bibek','Bibek','Binaya','B','C3','D4']}
+data=pd.DataFrame(df)
+data.info()
+data.Col_2.str.contains('[0-9][0-9]|[0-9]',regex=True)
+def Floor_Type(x):
+    return x.split(' ')[0]
+
+Floor_Type
+def Floor_Height(y):
+    try:
+        return int(y.split(' ')[1])
+    except:
+        return np.nan
+Floor_Height("26")
+data['Col_3']=np.nan
+data
+df0=data[['Col_1','Col_2']]
+df0
+x=5
+a=f"my number is {x}"
+print(a)
+mains()
