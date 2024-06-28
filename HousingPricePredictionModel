@@ -1,12 +1,4 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "3f05aaa7",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+
     "import pandas as pd\n",
     "import matplotlib.pyplot as plt\n",
     "import seaborn as sns\n",
@@ -15,9 +7,7 @@
     "import warnings# to avoid the warnings\n",
     "warnings.filterwarnings('ignore')\n",
     "pd.pandas.set_option('display.max_columns',0)"
-   ]
-  },
-  {
+   
    "cell_type": "code",
    "execution_count": 2,
    "id": "77736a94",
